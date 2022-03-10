@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+ <input type="text" id="gta">
+<input type="text" id="gtb">
+ <button onclick="doi()">Tính S</button>
+<h1 id="kq"></h1>
+
+    <script>
+        function doi() {
+            let a  = document.getElementById("gta").value;
+            let b = document.getElementById("gtb").value;
+            document.getElementById("kq").innerHTML = a * b;
+        }
+    </script>
+</table>
+</body>
+</html>
